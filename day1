@@ -1,0 +1,68 @@
+Day 1: Introduction to Machine Learning
+•	Understanding what Machine Learning is
+•	Why Machine Learning is needed
+•	Types of ML: Supervised, Unsupervised, Reinforcement (overview)
+•	Basic ML workflow (problem → data → model → prediction)
+•	Task 1: Write a simple definition of ML in your own words
+•	Task 2: Identify one real-life problem that can be solved using ML
+•	Task 3: Define the problem statement, input data, and expected output for that problem
+
+📌Day 1 - Completed✅
+I started learning Machine learning today ,i have learnt
+
+  
+🔹 What is Machine Learning?
+Machine Learning is a part of Artificial Intelligence which learns form data and make predictions or decisions without being explicitly programmed.
+
+
+🔹 Basic Machine Learning Workflow
+Problem Identification
+        ↓
+Data Collection
+        ↓
+Data Preprocessing
+        ↓
+Model Selection
+        ↓
+Model Training
+        ↓
+Model Evaluation
+        ↓
+Prediction / Output
+
+
+📌 Problem Statement
+Predict the price of a house based on its size using Machine Learning.
+
+
+📥 Input Data
+
+The input data for this problem consists of the size of the house measured in square feet.
+Example Input:
+800 sq ft
+1200 sq ft
+
+📥 Expected Output
+
+The expected output of the Machine Learning model is the predicted price of the house.
+Example Output:
+₹25,00,000
+₹45,00,000
+
+
+🔹 Workflow for House Price Prediction
+
+1. Define the problem:
+   Predict house prices using house size.
+2. Collect data:
+   Gather data containing house sizes and their prices.
+3. Preprocess data:
+   Clean the data and remove missing values.
+4. Select model:
+   Choose a simple regression model.
+5. Train model:
+   Train the model using historical data.
+6. Evaluate model:
+   Check accuracy using test data.
+7. Make prediction:
+   Predict the price of a new house.
