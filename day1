@@ -31,38 +31,39 @@ Model Evaluation
 Prediction / Output
 
 
-📌 Problem Statement
-Predict the price of a house based on its size using Machine Learning.
 
+📌 Problem Statement
+
+Predict the salary of an employee based on their years of experience using Machine Learning.
 
 📥 Input Data
-
-The input data for this problem consists of the size of the house measured in square feet.
+The input data for this problem consists of the number of years of experience an employee has.
 Example Input:
-800 sq ft
-1200 sq ft
+1 year
+3 years
+5 years
 
-📥 Expected Output
-
-The expected output of the Machine Learning model is the predicted price of the house.
+📤 Expected Output
+The expected output of the Machine Learning model is the predicted salary of the employee.
 Example Output:
-₹25,00,000
-₹45,00,000
+₹20,000
+₹35,000
+₹50,000
 
 
-🔹 Workflow for House Price Prediction
+🔹 Workflow for Salary Prediction
 
-1. Define the problem:
-   Predict house prices using house size.
-2. Collect data:
-   Gather data containing house sizes and their prices.
-3. Preprocess data:
-   Clean the data and remove missing values.
-4. Select model:
-   Choose a simple regression model.
-5. Train model:
-   Train the model using historical data.
-6. Evaluate model:
-   Check accuracy using test data.
-7. Make prediction:
-   Predict the price of a new house.
+Define the problem:
+Predict employee salary using years of experience.
+Collect data:
+Gather data containing employee experience and corresponding salaries.
+Preprocess data:
+Clean the dataset and handle missing or inconsistent values.
+Select model:
+Choose a Linear Regression model.
+Train model:
+Train the model using historical experience–salary data.
+Evaluate model:
+Measure model performance using test data.
+Make prediction:
+Predict salary for a new employee based on experience.
