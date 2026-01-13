@@ -40,10 +40,18 @@ Predict the salary of an employee based on their years of experience using Machi
 The input data for this problem consists of the following features related to an employee:
 Years of Experience – Total number of years the employee has worked
 Education Level – Highest qualification of the employee
+Job Title – Current role of the employee in the organization
 Example Input:
-Years of Experience: 1 year, Education Level: Bachelor’s
-Years of Experience: 3 years, Education Level: Master’s
-Years of Experience: 5 years, Education Level: PhD
+Years of Experience: 1 year
+Education Level: Bachelor’s
+Job Title: Data Analyst
+Years of Experience: 3 years
+Education Level: Master’s
+Job Title: Data Analyst
+
+Years of Experience: 5 years
+Education Level: PhD
+Job Title: Data Scientist
 
 📤 Expected Output
 The expected output of the Machine Learning model is the predicted salary of the employee.
