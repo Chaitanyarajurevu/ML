@@ -1,0 +1,112 @@
+Day 2: Dataset Collection & Understanding
+•	What is data and dataset
+•	Features and target variable
+•	Types of datasets: structured and unstructured
+•	Common dataset formats (CSV)
+•	Task 1: Search and download a dataset related to Day 1 problem
+•	Task 2: Identify features and target column
+•	Task 3: Write observations about dataset size, columns, and possible issues
+
+📌Day 2 - Completed✅
+
+## 📌 Project Overview
+
+This project focuses on understanding and analyzing a dataset used for predicting employee salaries based on three important factors:
+- Years of Experience
+- Education Level
+- Job Title
+
+Dataset understanding is a critical step in Machine Learning, as the quality, features, and structure of data directly impact model performance.
+
+##  Task 1: Dataset Collection
+
+The dataset used in this project contains employee-related information and is designed for a **Salary Prediction** Machine Learning task.
+
+### Dataset Details
+- Dataset Type: Structured data
+- File Format: CSV (Comma-Separated Values)
+- Machine Learning Type: Supervised Learning (Regression)
+
+### Dataset Purpose
+The dataset was selected because:
+- It directly matches the problem statement defined in Day 1
+- It includes both numerical and categorical features
+- It reflects real-world salary prediction scenarios
+- It is beginner-friendly and easy to understand
+
+---
+
+##  Task 2: Features and Target Variable
+
+After exploring the dataset, the columns were identified and categorized as follows:
+
+### Dataset Columns
+
+| Column Name          | Data Type    | Role    | Description |
+|---------------------|-------------|---------|-------------|
+| Years_of_Experience | Numerical   | Feature | Number of years of professional experience |
+| Education_Level     | Categorical | Feature | Highest education qualification of the employee |
+| Job_Title           | Categorical | Feature | Current job role/designation of the employee |
+| Salary              | Numerical   | Target  | Annual salary of the employee |
+
+---
+
+### Features (Input Variables)
+
+- **Years of Experience**  
+  Represents the total professional experience of an employee and has a direct impact on salary growth.
+
+- **Education Level**  
+  Represents the highest educational qualification (e.g., Bachelor’s, Master’s, PhD).  
+  This is a categorical feature and must be encoded before model training.
+
+- **Job Title**  
+  Represents the employee’s job role or position (e.g., Software Engineer, Data Analyst, Manager).  
+  This feature plays a significant role in determining salary and also requires encoding.
+
+---
+
+### Target Variable (Output)
+
+- **Salary**  
+  A continuous numerical value representing the annual salary of an employee.  
+  This is the variable that the Machine Learning model learns to predict.
+
+---
+
+##  Task 3: Dataset Observations & Analysis
+
+### Dataset Size
+- The dataset is small to medium in size.
+- Suitable for beginners and learning Machine Learning fundamentals.
+- Allows easy experimentation without high computational cost.
+
+### Dataset Structure
+- Total Columns: 4
+- Each row represents one employee record with experience, education, job role, and salary.
+
+---
+
+### Data Types
+- **Numerical Data**
+  - Years_of_Experience
+  - Salary
+- **Categorical Data**
+  - Education_Level
+  - Job_Title
+
+---
+
+### Possible Data Issues
+
+- **Categorical Encoding**
+  - Education_Level and Job_Title must be converted into numerical form using encoding techniques such as Label Encoding or One-Hot Encoding.
+
+- **Missing Values**
+  - Dataset should be checked for null or missing values before training.
+
+- **Feature Scaling**
+  - Numerical features may require scaling for better model performance.
+
+- **Limited Features**
+  - Salary depends on many real-world factors (location, company, skills, industry), which are not included in this dataset.
