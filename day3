@@ -1,0 +1,37 @@
+Day 3: NumPy Essentials for ML  
+Why NumPy is used in ML  
+NumPy arrays vs Python lists  
+Array creation, shape, indexing  
+Basic mathematical operations  
+Task 1: Load dataset values into NumPy arrays  
+Task 2: Perform basic operations (mean, min, max) on numerical columns  
+Task 3: Prepare feature and target arrays using NumPy
+
+📌Day 3 - Completed✅
+
+🔹 Topics Covered
+
+Why NumPy is important in Machine Learning
+Difference between NumPy arrays and Python lists
+Creating NumPy arrays
+Understanding array shape and dimensions
+Array indexing and slicing
+Performing basic mathematical operations
+
+## Tasks Completed
+ Task 1: Load dataset into NumPy arrays
+
+Converted dataset columns into NumPy arrays for efficient computation.
+
+ Task 2: Perform basic operations
+
+Calculated mean, minimum, and maximum values on numerical columns using NumPy functions.
+
+ Task 3: Prepare feature and target arrays
+
+Separated input features (X) and target variable (y) using NumPy, preparing the data for model training.
+
+
+📓 Google Colab Notebook (Day 3 Work):
+https://colab.research.google.com/drive/1_VEL5npSuBLKl_N6CWOIP_gMD7Qv9tNf
+
