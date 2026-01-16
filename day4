@@ -1,0 +1,37 @@
+Day 4: Pandas Essentials for ML
+•	Introduction to Pandas
+•	DataFrame and Series
+•	Reading CSV files
+•	Handling missing values
+•	Basic data inspection methods
+•	Task 1: Load dataset using Pandas
+•	Task 2: Clean the dataset (handle missing values, remove duplicates)
+•	Task 3: Create final feature and target DataFrames
+
+
+📌 Day 4 – Completed ✅
+
+  🔹 Topics Covered
+  
+Introduction to Pandas and its role in Machine Learning
+Understanding Pandas DataFrame and Series
+Reading datasets from CSV files
+Handling missing values in datasets
+Basic data inspection and exploration techniques
+
+  ##Tasks completed
+
+Task 1: Load dataset using Pandas
+Loaded the dataset into a Pandas DataFrame, enabling structured and efficient data handling.
+
+Task 2: Clean the dataset
+Identified missing values in numerical columns and handled them using appropriate techniques.
+Detected and removed duplicate rows to ensure data quality and consistency.
+
+Task 3: Create final feature and target DataFrames
+Selected relevant input features such as Years of Experience, Education Level, and Job Title.
+Separated the target variable (Salary) to prepare the dataset for Machine Learning model training.
+
+  
+#### Google Colab Notebook :
+https://colab.research.google.com/drive/1_VEL5npSuBLKl_N6CWOIP_gMD7Qv9tNf#scrollTo=PBan84H197o-
