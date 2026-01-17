@@ -1,0 +1,34 @@
+Day 5: Data Visualization & Preprocessing
+•	Importance of data visualization
+•	Matplotlib basics (line, bar, scatter)
+•	Understanding data distribution
+•	Basic preprocessing concepts
+•	Task 1: Plot relationships between features and target
+•	Task 2: Identify outliers or patterns from plots
+•	Task 3: Finalize features for model training
+
+📌 Day 5 – Completed ✅
+
+🔹 Topics Covered
+Role of data visualization in Machine Learning
+Using Matplotlib for basic plots
+Understanding salary distribution and trends
+Identifying outliers through visual analysis
+Importance of preprocessing before model training
+
+## Tasks Completed
+🔹 Task 1: Plot Relationships Between Features and Target
+
+Plotted relationships between Years of Experience, Education Level, Job Title, and Salary.
+Identified strong correlation between experience and salary and moderate impact of education level.
+
+🔹 Task 2: Identify Outliers or Patterns
+
+Used histogram and boxplot to analyze salary distribution.
+Detected extreme salary values and observed overall data patterns without training any model.
+
+🔹 Task 3: Finalize Features for Model Training
+
+Removed salary outliers using the IQR method.
+Selected Years of Experience, Education Level, and Job Title as input features.
+Separated Salary as the target variable and prepared clean data for training.
