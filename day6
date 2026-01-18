@@ -1,0 +1,44 @@
+Day 6: Data Splitting & Linear Regression
+•	Train-test split concept
+•	Overfitting and underfitting
+•	Linear Regression intuition and equation
+•	Model training using scikit-learn
+•	Task 1: Split dataset into training and testing sets
+•	Task 2: Train a Linear Regression model
+•	Task 3: Evaluate model performance using metrics
+give me the information and also the code
+
+📌 Day 6 – Completed ✅
+
+##📓 Google Colab Notebook:
+https://colab.research.google.com/drive/1_VEL5npSuBLKl_N6CWOIP_gMD7Qv9tNf#scrollTo=PBan84H197o-
+
+🔹 Topics Covered
+Importance of splitting data into training and testing sets
+Understanding overfitting and underfitting in Machine Learning models
+Concept and intuition behind Linear Regression
+Difference between regression and classification metrics
+Handling categorical data correctly for Linear Regression
+
+🛠️ Tasks Completed
+
+🔹 Task 1: Split Dataset into Training and Testing Sets
+Split the cleaned dataset into 80% training and 20% testing data using train_test_split.
+Ensured no data leakage between training and testing sets.
+
+🔹 Task 2: Train a Linear Regression Model
+Applied Multiple Linear Regression using scikit-learn.
+Used Years of Experience, Education Level, and One-Hot Encoded Job Title as input features.
+Trained the model to learn salary patterns from the training data.
+
+🔹 Task 3: Evaluate Model Performance
+Evaluated the model using:
+Mean Absolute Error (MAE)
+Mean Squared Error (MSE)
+Root Mean Squared Error (RMSE)
+R² Score
+Achieved an R² score of approximately 0.85, indicating strong model performance.
+Analyzed model coefficients to understand the contribution of each feature to salary prediction.
+Visualized model performance using Actual vs Predicted Salary plots.
+
+
