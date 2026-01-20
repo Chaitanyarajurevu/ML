@@ -1,0 +1,79 @@
+Day 7: Logistic Regression & Final Mini Project  
+When to use Logistic Regression  
+Binary classification problems  
+Sigmoid function intuition  
+Model training using scikit-learn  
+Task 1: Convert problem into a classification task if applicable  
+Task 2: Train a Logistic Regression model  
+Task 3: Compare Linear vs Logistic model results and document finding  
+
+
+
+  #### Google Colab Notebook :
+https://colab.research.google.com/drive/1_VEL5npSuBLKl_N6CWOIP_gMD7Qv9tNf#scrollTo=PBan84H197o-
+  
+
+📌 Day 7 – Completed ✅
+
+🛠️ Tasks Completed
+🔹 Task 1: Convert Problem into a Classification Task
+
+Converted the salary prediction problem into a binary classification problem:
+
+High Salary (1) → Salary greater than or equal to the median salary
+
+Low Salary (0) → Salary below the median
+
+Created a new binary target variable High_Salary.
+
+Ensured the dataset remained balanced between both classes.
+
+🔹 Task 2: Train a Logistic Regression Model
+
+Used One-Hot Encoded features from Day 6:
+
+Years of Experience
+
+Education Level
+
+Job Title (encoded)
+
+Split the dataset into 80% training and 20% testing sets using stratified sampling.
+
+Applied StandardScaler to scale features before training.
+
+Trained a Logistic Regression model using scikit-learn.
+
+🔹 Task 3: Evaluate and Compare Models
+
+Evaluated the Logistic Regression model using:
+
+Accuracy
+
+Precision
+
+Recall
+
+F1 Score
+
+Confusion Matrix
+
+Achieved approximately 90% accuracy with balanced precision and recall.
+
+Analyzed the confusion matrix and observed:
+
+Very few false positives and false negatives
+
+No bias toward either class
+
+Compared Logistic Regression (classification) with Linear Regression (regression) from Day 6:
+
+Linear Regression predicts exact salary values
+
+
+
+
+  #### Google Colab Notebook :
+https://colab.research.google.com/drive/1_VEL5npSuBLKl_N6CWOIP_gMD7Qv9tNf#scrollTo=PBan84H197o-
+
+Logistic Regression predicts salary category (High/Low)
